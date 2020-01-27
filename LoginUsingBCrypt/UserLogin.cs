@@ -9,6 +9,8 @@ namespace LoginUsingBCrypt
     public class UserLogin
     {
         public string Email { get; set; }
+        public bool Enabled { get; set; }
+        public string Authorities { get; set; }
         public string Password { get; set; }
     }
 }
